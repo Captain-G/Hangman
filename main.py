@@ -14,7 +14,7 @@ def main():
     global already_guessed
     global length
     global play_game
-    words_to_guess = ["january", "border", "image", "film", "promise", "kids", "lungs", "doll", "rhyme", "damage", "plants"]
+    words_to_guess = ["chihuahua", "bulldog", "huskey", "rottweiler", "retreiver", "caucasian", "hound", "boxer", "dalmatian"]
     word = random.choice(words_to_guess)
     length = len(word)
     count = 0
@@ -120,6 +120,8 @@ def hangman():
         play_loop()
     elif count != limit:
         hangman()
+
+
 main()
 
 
